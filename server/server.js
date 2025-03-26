@@ -14,5 +14,5 @@ await connectDB()
 
 //API routes
 
-app.get('/',(req,res)=> res.send("API working"))
+app.get('/',(req,res)=> res.send("API is working..."))
 app.listen(PORT,()=> console.log("Server Running on port" +PORT))
